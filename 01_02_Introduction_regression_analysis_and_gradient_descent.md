@@ -31,6 +31,14 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7Bi%7D) হল **প্যারামিটার** 
     - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B0%7D) হল জিরো হবার শর্ত (Zero condition)
     - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B1%7D) হল গ্রাডিয়েন্ট 
+- এই ধরণের ফাংশনকেই বলে ওয়ান ভ্যারিয়েবল(one variable) লিনিয়ার রিগ্রেশন 
+  - একে  univariate linear regression ও বলা হয়ে থাকে 
+- তাহলে সংক্ষেপে বললে
+  - একটি হাইপোথিসিস কিছু ভ্যারিয়েবল গ্রহণ করে 
+  - লার্নিং সিস্টেম যেসব প্যারামিটারের কথা বলে দেয় সেসব ব্যবহার করে 
+  - ইনপুটের ভিত্তিতে আউটপুটে একটি প্রেডিকশন (prediction) দেয় 
+
+### লিনিয়ার রিগ্রেশনের প্রয়োগ (কস্ট ফাংশন-cost function) 
     
 how to Equation
 http://latex.codecogs.com/eqneditor/editor.php
