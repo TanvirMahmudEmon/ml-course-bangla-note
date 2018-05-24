@@ -25,5 +25,5 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
     - hθ(x) = θ0 + θ1x
     - h(x) (সংক্ষেপে লিখলে)
     
-    how to Equation
+how to Equation
 https://www.youtube.com/watch?v=dpVnmxpVdvg
