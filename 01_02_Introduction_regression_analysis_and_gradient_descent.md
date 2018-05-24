@@ -29,7 +29,8 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 - এর মানে কি বুঝাচ্ছে ?
   - x এর একটি লিনিয়ার ফাংশন হল Y  
   - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7Bi%7D) হল **প্যারামিটার** 
-
+    - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B0%7D) হল জিরো হবার শর্ত (Zero condition)
+    - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B1%7D) হল গ্রাডিয়েন্ট 
     
 how to Equation
 http://latex.codecogs.com/eqneditor/editor.php
