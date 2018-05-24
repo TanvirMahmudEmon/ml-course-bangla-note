@@ -42,6 +42,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 - আমাদের ডাটায় কিভাবে সোজা লাইনটা (straight line) সঠিকভাবে বসবে কস্ট ফাংশন (cost function) সেটা বের করতে সাহায্য করে 
 -  ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bi%7D) (parameters) এর জন্য মান নেয়া 
   - একেক মান থেকে একেক ফাংশন পাওয়া যায় 
-
+  - যদি = 
+  
 how to Equation
 http://latex.codecogs.com/eqneditor/editor.php
