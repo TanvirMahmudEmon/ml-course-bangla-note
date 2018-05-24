@@ -39,6 +39,9 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - ইনপুটের ভিত্তিতে আউটপুটে একটি প্রেডিকশন (prediction) দেয় 
 
 ### লিনিয়ার রিগ্রেশনের প্রয়োগ (কস্ট ফাংশন-cost function) 
-    
+- আমাদের ডাটায় কিভাবে সোজা লাইনটা (straight line) সঠিকভাবে বসবে কস্ট ফাংশন (cost function) সেটা বের করতে সাহায্য করে 
+-  ![](https://camo.githubusercontent.com/0e158d4caf8aeeeb9b78583588f42e59d6d99462/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f253543666e5f636d25323025354354686574612532305f25374269253744) (parameters) এর জন্য মান নেয়া 
+  - একেক মান থেকে একেক ফাংশন পাওয়া যায় 
+
 how to Equation
 http://latex.codecogs.com/eqneditor/editor.php
