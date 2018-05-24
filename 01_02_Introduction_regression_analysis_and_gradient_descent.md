@@ -28,7 +28,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 ![hypothesis equation](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[7].png)
 - এর মানে কি বুঝাচ্ছে ?
   - x এর একটি লিনিয়ার ফাংশন হল Y  
-  - \Theta _{i} হল প্যারামিটার 
+  - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7Bi%7D) হল **প্যারামিটার** 
 
     
 how to Equation
