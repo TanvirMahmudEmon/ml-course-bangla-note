@@ -25,7 +25,11 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
     - hθ(x) = θ0 + θ1x
     - h(x) (সংক্ষেপে লিখলে)
 
-![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[7].png)
+![hypothesis equation](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[7].png)
+- এর মানে কি বুঝাচ্ছে ?
+  - x এর একটি লিনিয়ার ফাংশন হল Y  
+  - \Theta _{i} হল প্যারামিটার 
+
     
 how to Equation
-https://www.youtube.com/watch?v=dpVnmxpVdvg
+http://latex.codecogs.com/eqneditor/editor.php
