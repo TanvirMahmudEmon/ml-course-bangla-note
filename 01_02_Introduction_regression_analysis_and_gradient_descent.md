@@ -24,6 +24,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - h কে এভাবে লেখা যায়:
     - hθ(x) = θ0 + θ1x
     - h(x) (সংক্ষেপে লিখলে)
+
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[7].png)
     
 how to Equation
