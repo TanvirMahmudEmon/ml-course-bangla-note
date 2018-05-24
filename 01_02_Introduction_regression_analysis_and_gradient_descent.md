@@ -11,7 +11,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
     - x = ইনপুট ভ্যারিয়েবল বা ফিচার 
     - y = আউটপুট ভ্যারিয়েবল বা টার্গেট ভ্যারিয়েবল 
       - (x,y) = যে কোন ১টা ট্রেনিং এক্সাম্পল 
-      - (xi, yj) = ১টা সুনির্দিষ্ট ট্রেনিং এক্সাম্পল (i তম ট্রেনিং এক্সাম্পল)
+      - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%28x%5E%7Bi%7D%2Cy%5E%7Bj%7D%29) = ১টা সুনির্দিষ্ট ট্রেনিং এক্সাম্পল (i তম ট্রেনিং এক্সাম্পল)
         - i দিয়ে ট্রেনিং সেট এর ১টি ইনডেক্স বুঝানো হচ্ছে 
 ![house_price.png](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[6].png)
 - আমাদের ট্রেনিং সেট দেয়া আছে, এখন আমরা এটাকে কিভাবে ব্যবহার করব ?
@@ -22,15 +22,15 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
     - এই ফাংশনটি আউটপুট হিসাবে Y এর (যথাসম্ভব কাছাকাছি) মান বের করে দেয়ার চেষ্টা করে
 - হাইপোথিসিস h কে আমরা কিভাবে লিখতে পারি ?
   - h কে এভাবে লেখা যায়:
-    - hθ(x) = θ0 + θ1x
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%20%7D%28x%29%3D%5CTheta%20_%7B0%7D&plus;%5CTheta%20_%7B1%7Dx)
     - h(x) (সংক্ষেপে লিখলে)
 
 ![hypothesis equation](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[7].png)
 - এর মানে কি বুঝাচ্ছে ?
   - x এর একটি লিনিয়ার ফাংশন হল Y  
-  - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7Bi%7D) হল **প্যারামিটার** 
-    - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B0%7D) হল জিরো হবার শর্ত (Zero condition)
-    - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B1%7D) হল গ্রাডিয়েন্ট 
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bi%7D) হল **প্যারামিটার** 
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) হল জিরো হবার শর্ত (Zero condition)
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) হল গ্রাডিয়েন্ট 
 - এই ধরণের ফাংশনকেই বলে ওয়ান ভ্যারিয়েবল(one variable) লিনিয়ার রিগ্রেশন 
   - একে  univariate linear regression ও বলা হয়ে থাকে 
 - তাহলে সংক্ষেপে বললে
