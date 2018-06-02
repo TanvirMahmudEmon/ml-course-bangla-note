@@ -53,6 +53,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - মিনিমাইজ করব ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%28h_%7B%5CTheta%7D%28x%29%20-%20y%29%5E%7B2%7D) 
     - প্রত্যেকটা ট্রেনিং এক্সাম্পলের জন্য h(x) এবং y এর পার্থক্যকে কমাতে (minimize) হবে 
   - তারপর সাম (Sum) করতে হবে পুরো ট্রেনিং সেটের জন্য 
+  
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[8].png)  
 how to Equation
 http://latex.codecogs.com/eqneditor/editor.php
