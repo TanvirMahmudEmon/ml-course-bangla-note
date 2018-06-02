@@ -40,9 +40,9 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
 ### লিনিয়ার রিগ্রেশনের প্রয়োগ (কস্ট ফাংশন-cost function) 
 - আমাদের ডাটায় কিভাবে সোজা লাইনটা (straight line) সঠিকভাবে বসবে কস্ট ফাংশন (cost function) সেটা বের করতে সাহায্য করে 
--  ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bi%7D) (parameters) এর জন্য মান নেয়া 
+-  ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bi%7D) (parameters) এর জন্য মান বাছাই করা 
   - একেক মান থেকে একেক ফাংশন পাওয়া যায় 
-  - যদি = 
+  - যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D%20%3D%201.5) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%200) তবে আমরা X অক্ষের সাথে সমান্তরাল (parallel) একটি সোজা লাইন পাব যা (Y অক্ষে 1.5)
   
 how to Equation
 http://latex.codecogs.com/eqneditor/editor.php
