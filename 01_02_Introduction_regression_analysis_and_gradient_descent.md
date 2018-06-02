@@ -42,7 +42,17 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 - আমাদের ডাটায় কিভাবে সোজা লাইনটা (straight line) সঠিকভাবে বসবে কস্ট ফাংশন (cost function) সেটা বের করতে সাহায্য করে 
 -  ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bi%7D) (parameters) এর জন্য মান বাছাই করা 
   - একেক মান থেকে একেক ফাংশন পাওয়া যায় 
-  - যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D%20%3D%201.5) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%200) তবে আমরা X অক্ষের সাথে সমান্তরাল (parallel) একটি সোজা লাইন পাব যা (Y অক্ষে 1.5)
-  
+  - যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D%20%3D%201.5) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%200) হয় তবে আমরা X অক্ষের সাথে সমান্তরাল (parallel) একটি সোজা লাইন পাব যা (Y অক্ষে 1.5)
+  - আর যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3E%200) হয় তবে একটি পজেটিভ ঢাল (slope) পাব 
+- আমাদের ট্রেনিং সেটের ভিত্তিতে আমরা প্যারামিটার বের করতে চাচ্ছি যা কিনা সোজা লাইনটা (straight line) তৈরী করবে 
+  - প্যারামিটারগুলোকে এমনভাবে বাছাই করছি যেন ট্রেনিং এক্সাম্পলের জন্য ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29) y এর কাছাকাছি থাকে 
+    - আসলে ট্রেনিং সেটে x কে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29) সাথে ব্যবহার করা হচ্ছে যথাসম্ভব y এর মানের কাছাকাছি আউটপুট বের করে দেয়ার জন্য 
+  - ধরে নিন ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29) y কে নকল করছে ("y imitator") - x কে y তে কনভার্ট করার চেষ্টা করছে, এবং ধরে নিচ্ছে আমাদের কাছে y আছে তাই আমরা যাচাই করে দেখতে পারছি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29) এই কাজটি ঠিক ভাবে করতে পারছে কিনা (অর্থাৎ y তে কনভার্ট করার কাজটি)
+- বিষয়টা আরেকটু গুছিয়ে বললে:
+  - আমরা একটা মিনিমাইজেশন প্রব্লেম (minimization problem) সমাধান করতে চাই 
+  - মিনিমাইজ করব ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%28h_%7B%5CTheta%7D%28x%29%20-%20y%29%5E%7B2%7D) 
+    - প্রত্যেকটা ট্রেনিং এক্সাম্পলের জন্য h(x) এবং y এর পার্থক্যকে কমাতে (minimize) হবে 
+  - তারপর সাম (Sum) করতে হবে পুরো ট্রেনিং সেটের জন্য 
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[8].png)  
 how to Equation
 http://latex.codecogs.com/eqneditor/editor.php
