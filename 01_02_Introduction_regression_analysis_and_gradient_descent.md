@@ -47,7 +47,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 - আমাদের ট্রেনিং সেটের ভিত্তিতে আমরা প্যারামিটার বের করতে চাচ্ছি যা কিনা সোজা লাইনটা (straight line) তৈরী করবে 
   - প্যারামিটারগুলোকে এমনভাবে বাছাই করছি যেন ট্রেনিং এক্সাম্পলের জন্য ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29) y এর কাছাকাছি থাকে 
     - আসলে ট্রেনিং সেটে x কে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29) সাথে ব্যবহার করা হচ্ছে যথাসম্ভব y এর মানের কাছাকাছি আউটপুট বের করে দেয়ার জন্য 
-  - ধরে নিন ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29) y কে নকল করছে ("y imitator") - x কে y তে কনভার্ট করার চেষ্টা করছে, এবং ধরে নিচ্ছে আমাদের কাছে y আছে তাই আমরা যাচাই করে দেখতে পারছি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29) এই কাজটি ঠিক ভাবে করতে পারছে কিনা (অর্থাৎ y তে কনভার্ট করার কাজটি)
+  - ধরে নিন ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29),  y কে নকল করছে ("y imitator") - x কে y তে কনভার্ট করার চেষ্টা করছে, এবং ধরে নিচ্ছে আমাদের কাছে y আছে তাই আমরা যাচাই করে দেখতে পারছি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29) এই কাজটি ঠিক ভাবে করতে পারছে কিনা (অর্থাৎ y তে কনভার্ট করার কাজটি)
 - বিষয়টা আরেকটু গুছিয়ে বললে:
   - আমরা একটা মিনিমাইজেশন প্রব্লেম (minimization problem) সমাধান করতে চাই 
   - মিনিমাইজ করব ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%28h_%7B%5CTheta%7D%28x%29%20-%20y%29%5E%7B2%7D) 
