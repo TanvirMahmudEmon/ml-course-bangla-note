@@ -80,4 +80,12 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%29) বুঝতে সমস্যা হয়, ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%29) কি করছে, কেন করছে, কিভাবে আমরা এটি ব্যবহার করছি তা নিয়ে আলোচনা আসছে 
   
 **কস্ট ফাংশন (Cost function) - আরেকটু গভীরভাবে দেখলে**
+- চলুন কস্ট ফাংশন নিয়ে কিছু ইনটুইশন (intuition) বিবেচনা করি এবং কেন এটি আমরা ব্যবহার করতে চাই 
+  - কস্ট ফাংশন প্যারামিটার নির্ণয় করে 
+  - আপনার হাইপোথিসিস কেমন আচরণ করবে প্যারামিটারের সাথে যুক্ত মান এটি নির্ণয় করে, বিভিন্ন মান থেকে বিভিন্ন কিছু তৈরী হয় 
+- সহজ সরল হাইপোথিসিস 
+  - ধরি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D%20%3D%200)
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[12].png)
+
 http://latex.codecogs.com/eqneditor/editor.php
