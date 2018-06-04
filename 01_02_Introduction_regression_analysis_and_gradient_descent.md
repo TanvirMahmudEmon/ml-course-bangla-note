@@ -55,5 +55,20 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - তারপর সাম (Sum) করতে হবে পুরো ট্রেনিং সেটের জন্য 
   
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[8].png)  
+- প্রেডিক্টেড হাউস প্রাইস ও আসল হাউস প্রাইসের বর্গের পার্থক্যকে (squared difference) মিনিমাইজ করা 
+  - 1/2m
+    - 1/m - এর মানে আমরা গড় (average) হিসাব করছি 
+    - 1/2m - 2 গাণিতিক হিসাবকে আরেকটু সহজ করে দিচ্ছে, এর কারণে আমরা যে মান বের করছি সেই মানের কোন পরিবর্তন হচ্ছে না (অর্থাৎ ক্ষুদ্রতম মানকে 2 দ্বারা ভাগ করে অর্ধেক করলেও সেটা ক্ষুদ্রতমই থাকে!)
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D/%5CTheta%20_%7B1%7D) কে মিনিমাইজ করা মানে আমরা ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর এমন মান পাচ্ছি যা খুঁজে বের করছে গড়ে y থেকে x এর সর্বনিম্ন বিচ্যুতি (minimal deviation) কত যখন আমরা ঐ প্যারামিটারগুলো আমাদের হাইপোথিসিস ফাংশনে ব্যবহার করছি 
+- আরেকটু ভেঙে বললে বলা যায়, এটা একটা কস্ট ফাংশন (cost function)
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[9].png)
+- এবং আমরা এই কস্ট ফাংশনকে (cost function) মিনিমাইজ করতে চাই 
+  - সামেশন (summation) থাকার কারণে কস্ট ফাংশন (cost function) স্বাভাবিকভাবে সবসময় ট্রেনিং সেটের সব ডাটা নিয়েই কাজ করবে 
+- **আবার একটু বলি** 
+  - **হাইপোথিসিস** - প্রেডিকশন মেশিনের মত, মেশিনে x দিলে y এর আনুমানিক মান পাওয়া যায় 
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[10].png)
+  - কস্ট (Cost) - এমন একটা উপায় যেখানে ট্রেনিং ডাটাকে ব্যবহার করে θ র মান নির্ণয় করা হচ্ছে যাতে হাইপোথিসিসটি যথাসম্ভব সঠিক হয় 
 how to Equation
 http://latex.codecogs.com/eqneditor/editor.php
