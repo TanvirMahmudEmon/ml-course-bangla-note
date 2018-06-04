@@ -71,4 +71,11 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[10].png)
   
   - **কস্ট (Cost)** - এমন একটা উপায় যেখানে ট্রেনিং ডাটাকে ব্যবহার করে θ র মান নির্ণয় করা হচ্ছে যাতে হাইপোথিসিসটি যথাসম্ভব সঠিক হয় 
+  ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[11].png)
+
+  - এই কস্ট ফাংশনকে (cost function) স্কয়ার্ড এরর কস্ট ফাংশনও (squared error cost function) বলা হয় 
+    - এই কস্ট ফাংশন (cost function) অধিকাংশ রিগ্রেশন ফাংশনের জন্যই মোটামোটি কার্যকর  
+    - সম্ভবত সবচেয়ে বহুল ব্যবহৃত ফাংশন 
+  - যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%29) বুঝতে সমস্যা হয়, ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%29) কি করছে, কেন করছে, কিভাবে আমরা এটি ব্যবহার করছি তা নিয়ে আলোচনা আসছে 
+**কস্ট ফাংশন (Cost function) - আরেকটু গভীরভাবে দেখলে**
 http://latex.codecogs.com/eqneditor/editor.php
