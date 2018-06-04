@@ -68,6 +68,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 - **আবার একটু বলি** 
   - **হাইপোথিসিস** - প্রেডিকশন মেশিনের মত, মেশিনে x দিলে y এর আনুমানিক মান পাওয়া যায় 
 
-![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[10].png)
+  ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[10].png)
+  
   - **কস্ট (Cost)** - এমন একটা উপায় যেখানে ট্রেনিং ডাটাকে ব্যবহার করে θ র মান নির্ণয় করা হচ্ছে যাতে হাইপোথিসিসটি যথাসম্ভব সঠিক হয় 
 http://latex.codecogs.com/eqneditor/editor.php
