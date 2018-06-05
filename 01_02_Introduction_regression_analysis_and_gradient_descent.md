@@ -88,4 +88,8 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[12].png)
 
+- কস্ট ফাংশন এবং এর লক্ষ্য অনেকটা আমাদের কাছে খুব সিম্পল প্যারামিটার সহকারে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) থাকার মত 
+  - হাইপোথিসিস সিম্পল হলে কস্ট ফাংশন J() কে সহজে ভিজুয়ালাইজ (visualizing) করা যায় 
+- তাই হাইপোথিসিস 0,0 দিয়ে অতিক্রম করছে 
+- দুটি মূল ফাংশনকে আমরা বুঝতে চাচ্ছি
 http://latex.codecogs.com/eqneditor/editor.php
