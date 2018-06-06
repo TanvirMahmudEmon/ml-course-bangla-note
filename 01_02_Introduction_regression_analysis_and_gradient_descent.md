@@ -118,5 +118,32 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
 - লার্নিং এলগোরিদম অপ্টিমাইজেশনের উদ্দেশ্য হল ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর মান বের করা, যে মানটি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29) কে মিনিমাইজ করে 
   - তাই এখানে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%201) হল ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর সবচেয়ে ভাল মান (উপরের চিত্রটি দেখুন)
+### কস্ট ফাংশনে আরো গভীর দৃষ্টি দিলে - সহজ-সরল কস্ট ফাংশন (cost function)
+- ধরে নিচ্ছি আপনি কন্ট্যুর প্লট (contour plots) বা কন্ট্যুর ফিগার (contour figures) সম্পর্কে জানেন 
+  - আগের মত একই কস্ট ফাংশন, হাইপোথিসিস ব্যবহার করে এবং একই উদ্দেশ্যে 
+  - আপনি যদি কন্ট্যুর প্লট (cotour plots) না বুঝে থাকেন তবে এই অংশটি বাদ দিয়ে গেলেও কোন সমস্যা হবে না 
+- দুটি ভ্যারিয়েবল বিশিষ্ট আমাদের মূল কমপ্লেক্স হাইপোথিসিসটি (complex hyothesis) ব্যবহার করি 
+  - তাহলে কস্ট ফাংশন হচ্ছে 
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B0%7D%2C%5CTheta%20_%7B1%7D%29)
+- উদাহরণ 
+  - ধরি 
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D%20%3D%2050)
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%200.06)
+  - একটু আগে আমরা কস্ট ফাংশনকে প্লট করেছিলাম এইভাবে 
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) বনাম ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29)
+  - এখন আমাদের দুটি প্যারামিটার আছে 
+    - তাই প্লট একটু দুর্বোধ্য হয়ে গেছে 
+    - 3D সারফেস প্লট (3D surface plot) তৈরী হচ্ছে যার এক্সিস বা অক্ষ 
+      - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20X%20%3D%20%5CTheta%20_%7B1%7D)  
+      - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20Z%20%3D%20%5CTheta%20_%7B0%7D)
+      - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20Y%20%3D%20J%28%5CTheta_%7B0%7D%2C%5CTheta_%7B1%7D%29)
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[14].png)
+
+- আমরা দেখতে পাচ্ছি (y) কস্ট ফাংশনের মান নির্দেশ করছে, তাই বের করি y এর মান কোথায় সর্বনিম্ন 
+
+- সারফেস প্লটের (surface plot) পরিবর্তে আমরা কন্ট্যুর ফিগার/প্লট (contour figures/plots) ব্যবহার করতে পারি 
+  - এলিপসগুলোর (ellipses) সেট বিভিন্ন রংয়ে 
+  - 
 
 http://latex.codecogs.com/eqneditor/editor.php
