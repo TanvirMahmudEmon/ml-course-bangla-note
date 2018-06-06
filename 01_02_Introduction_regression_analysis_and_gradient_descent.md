@@ -144,6 +144,5 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
 - সারফেস প্লটের (surface plot) পরিবর্তে আমরা কন্ট্যুর ফিগার/প্লট (contour figures/plots) ব্যবহার করতে পারি 
   - এলিপসগুলোর (ellipses) সেট বিভিন্ন রংয়ে 
-  - 
 
 http://latex.codecogs.com/eqneditor/editor.php
