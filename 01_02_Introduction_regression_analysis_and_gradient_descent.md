@@ -92,4 +92,31 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - হাইপোথিসিস সিম্পল হলে কস্ট ফাংশন J() কে সহজে ভিজুয়ালাইজ (visualizing) করা যায় 
 - তাই হাইপোথিসিস 0,0 দিয়ে অতিক্রম করছে 
 - দুটি মূল ফাংশনকে আমরা বুঝতে চাচ্ছি
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%20%7D%28x%29) 
+    - হাইপোথিসিস হচ্ছে x এর একটি ফাংশন - হাউসের সাইজ কত সেটির ফাংশন 
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29) 
+      - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর প্যারামিটারের একটি ফাংশন 
+    - উদাহরণস্বরূপ:
+      - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%201)
+      - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29%20%3D%200) 
+    - প্লট
+      - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) বনাম ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29)
+      - ডাটা 
+        - ১.
+          - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%201)
+          - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29%20%3D%200) 
+        - ২.
+          - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%200.5)     
+          - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29%20%3D%20%5Csim0.58)
+        - ৩.
+          - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%200)
+          - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29%20%3D%20%5Csim%202.3)
+- কিছু মান নিয়ে আমরা যদি প্লট করি 
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29) বনাম ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) আমরা একটি পলিনমিয়াল-polynomial পাই (দেখতে একটি কোয়াডরেটিক- quadratic এর মত)
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[13].png)
+
+- লার্নিং এলগোরিদম অপ্টিমাইজেশনের উদ্দেশ্য হল ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর মান বের করা, যে মানটি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B1%7D%29) কে মিনিমাইজ করে 
+  - তাই এখানে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%201) হল ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর সবচেয়ে ভাল মান (উপরের চিত্রটি দেখুন)
+
 http://latex.codecogs.com/eqneditor/editor.php
