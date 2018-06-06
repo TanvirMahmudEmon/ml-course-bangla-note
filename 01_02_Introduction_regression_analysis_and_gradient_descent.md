@@ -144,5 +144,10 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
 - সারফেস প্লটের (surface plot) পরিবর্তে আমরা কন্ট্যুর ফিগার/প্লট (contour figures/plots) ব্যবহার করতে পারি 
   - এলিপসগুলোর (ellipses) সেট বিভিন্ন রংয়ে 
+  - প্রত্যেকটি রং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta_%7B0%7D%2C%5CTheta_%7B1%7D%29) এর একই মান, কিন্তু বিভিন্ন স্থানে প্লট করা হচ্ছে কারণ ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta_%7B1%7D) ও ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta_%7B0%7D) পরিবর্তন হচ্ছে 
+  - ভাবুন একটি গোলাকার বাটি বা বোলের মত (bowl shape) ফাংশন স্ক্রীন (screen) থেকে  বের হয়ে আসছে তাহলে কেন্দ্রটি হবে এককেন্দ্রিকবিশিষ্ট অনেকগুলো বৃত্ত (concentric circles)
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[15].png)
+
 
 http://latex.codecogs.com/eqneditor/editor.php
