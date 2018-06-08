@@ -164,5 +164,19 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B1%7D) এর মিনিমাম খোঁজার জন্য আসলে আমাদের একটি কার্যকর এলগোরিদম চাই 
 
 ### গ্রেডিয়েন্ট ডিসেন্ট এলগোরিদম (Gradient descent algorithm)
+- কস্ট ফাংশন (cost function) J কে মিনিমাইজ করে 
+- গ্রেডিয়েন্ট ডিসেন্ট 
+  - মেশিন লার্নিংয়ের সর্বত্রই মিনিমাইজেশনের জন্য ব্যবহার করা হয় 
+- সাধারণ J() ফাংশন দিয়ে শুরু করি 
+- প্রবলেম হচ্ছে 
+  - আমাদের কাছে আছে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B0%7D%2C%5CTheta%20_%7B1%7D%29)
+  - আমরা বের করতে চাই min![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B0%7D%2C%5CTheta%20_%7B1%7D%29)
+- আরো সাধারণ ফাংশনে গ্রেডিয়েন্ট ডিসেন্ট প্রয়োগ হয় 
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B0%7D%2C%5CTheta%20_%7B1%7D%2C%5CTheta%20_%7B2%7D....%5CTheta%20_%7Bn%7D%29)
+  - min![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B0%7D%2C%5CTheta%20_%7B1%7D%2C%5CTheta%20_%7B2%7D....%5CTheta%20_%7Bn%7D%29)
+
+**এটি কিভাবে কাজ করে ?**
+- প্রথমেই কিছু অনুমান দিয়ে শুরু 
+
 
 http://latex.codecogs.com/eqneditor/editor.php
