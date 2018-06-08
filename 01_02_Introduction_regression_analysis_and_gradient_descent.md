@@ -185,7 +185,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 - মজার একটি বৈশিষ্ট্য আছে 
   - যেখান থেকে শুরু করছি সেখান থেকে নির্ধারণ করা যায় কোন মিনিমামে গিয়ে শেষ হবে 
 
-![](https://www.facebook.com/groups/luksusowereplikiuk/permalink/1685967711486007/)
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[16].png)
 
 
 http://latex.codecogs.com/eqneditor/editor.php
