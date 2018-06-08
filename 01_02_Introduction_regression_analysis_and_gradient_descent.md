@@ -149,5 +149,20 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[15].png)
 
+- প্রত্যেকটি বিন্দু (উপরে ছবিতে লাল বিন্দুটির মত) ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B1%7D) এর জন্য এক জোড়া প্যারামিটারের মানকে উপস্থাপন করছে 
+  - এখানে আমাদের উদাহরণে মানগুলোকে স্থাপন করছে 
+    - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B0%7D%20%3D%20%5Csim%20800) 
+    - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B1%7D%20%3D%20%5Csim%20-0.15)
+  - ভালোভাবে ফিট হল না 
+    - অর্থাৎ এই প্যারামিটারগুলো দিয়ে কন্ট্যুর প্লটে (contour plot) যে মান পাওয়া যাচ্ছে সেটি কেন্দ্র থেকে দূরে 
+  - যদি 
+    - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B0%7D%20%3D%20%5Csim%20360)
+    - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B1%7D%20%3D%200)
+    - এটা আরেকটু ভাল হাইপোথিসিস দিচ্ছে, তারপরেও খুব বেশি ভাল নয় - কন্ট্যুর প্লটের (contour plot) কেন্দ্রে নয় 
+  - সবশেষে আমরা মিনিমামটি (minimum) পাচ্ছি, যা থেকে বেস্ট হাইপোথিসিসটি পাওয়া যায় 
+- চোখে দেখে / হাত দিয়ে এই কাজ করা বিরক্তিকর 
+  - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B1%7D) এর মিনিমাম খোঁজার জন্য আসলে আমাদের একটি কার্যকর এলগোরিদম চাই 
+
+### গ্রাডিয়েন্ট ডিসেন্ট এলগোরিদম (Gradient descent algorithm)
 
 http://latex.codecogs.com/eqneditor/editor.php
