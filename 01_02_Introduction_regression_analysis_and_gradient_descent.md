@@ -163,6 +163,6 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 - চোখে দেখে / হাত দিয়ে এই কাজ করা বিরক্তিকর 
   - ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5CTheta%20_%7B1%7D) এর মিনিমাম খোঁজার জন্য আসলে আমাদের একটি কার্যকর এলগোরিদম চাই 
 
-### গ্রাডিয়েন্ট ডিসেন্ট এলগোরিদম (Gradient descent algorithm)
+### গ্রেডিয়েন্ট ডিসেন্ট এলগোরিদম (Gradient descent algorithm)
 
 http://latex.codecogs.com/eqneditor/editor.php
