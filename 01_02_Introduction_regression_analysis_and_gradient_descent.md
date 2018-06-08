@@ -177,6 +177,15 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
 **এটি কিভাবে কাজ করে ?**
 - প্রথমেই কিছু অনুমান দিয়ে শুরু 
+  - 0,0 থেকে শুরু (অথবা অন্য যেকোন মান থেকে)
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B0%7D%2C%5CTheta%20_%7B1%7D%29) কে কমানোর জন্য ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) কে পরিবর্তন করতে থাকি 
+- প্রত্যেকবার যখন প্যারামিটার পরিবর্তন করছি, গ্রেডিয়েন্টকে বাছাই করছি যেটি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B0%7D%2C%5CTheta%20_%7B1%7D%29) কে যথাসম্ভব কমাচ্ছে 
+- একই কাজ বারবার করি 
+- লোকাল মিনিমামে একই বিন্দুতে এসে মিলিত (converge) না হওয়া পর্যন্ত এই কাজ করে যেতে হবে 
+- মজার একটি বৈশিষ্ট্য আছে 
+  - যেখান থেকে শুরু করছি সেখান থেকে নির্ধারণ করা যায় কোন মিনিমামে গিয়ে শেষ হবে 
+
+![](https://www.facebook.com/groups/luksusowereplikiuk/permalink/1685967711486007/)
 
 
 http://latex.codecogs.com/eqneditor/editor.php
