@@ -196,6 +196,13 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[17].png)
 
 - এগুগুলোর মানে কি বুঝাচ্ছে ?
-  -  কে আপডেট করতে হবে সংখ্যক বার এর রেস্পেক্টে কস্ট ফাংশনের পার্শিয়াল ডেরিভেটিভ বের করে 
+  ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) কে আপডেট করতে হবে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%28%5CTheta%20_%7Bj%7D%20-%20%5Calpha%29) সংখ্যক বার ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) এর রেস্পেক্টে কস্ট ফাংশনের পার্শিয়াল ডেরিভেটিভ বের করে
+- নোটেশন (Notation)
+  - :=
+    - এসাইনমেন্টকে নির্দেশ করছে (Denotes assignment)
+    - নোট: a = b মানে ট্রুথ আসারশন (truth assertion)
+  - α (alpha)
+    - এটি একটি নাম্বার যাকে  বলে লার্নিং রেট (learning rate)
+
 
 http://latex.codecogs.com/eqneditor/editor.php
