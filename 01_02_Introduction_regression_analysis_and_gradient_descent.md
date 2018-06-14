@@ -187,5 +187,14 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[16].png)
 
+  - এখানে দেখা যাচ্ছে একটি ইনিশিয়ালাইজেশন পয়েন্ট (initialization point) থেকে একটি লোকাল মিনিমাম (local minimum) পাওয়া যাচ্ছে 
+  - আরেকটি পয়েন্ট থেকে আরেকটি লোকাল মিনিমাম (local minimum) পাওয়া যাচ্ছে 
+**আরো যথাযথ সংজ্ঞা(formal definition)**
+- কনভারজেন্স (convergence) না হওয়া পর্যন্ত  
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[17].png)
+
+- এগুগুলোর মানে কি বুঝাচ্ছে ?
+  -  কে আপডেট করতে হবে সংখ্যক বার এর রেস্পেক্টে কস্ট ফাংশনের পার্শিয়াল ডেরিভেটিভ বের করে 
 
 http://latex.codecogs.com/eqneditor/editor.php
