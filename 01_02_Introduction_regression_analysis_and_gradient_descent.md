@@ -203,6 +203,6 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
     - নোট: a = b মানে ট্রুথ আসারশন (truth assertion)
   - α (alpha)
     - এটি একটি নাম্বার যাকে  বলে **লার্নিং রেট (learning rate)**
-
+    - একটি স্টেপ কত বড় হবে সেটি নিয়ন্ত্রণ করে 
 
 http://latex.codecogs.com/eqneditor/editor.php
