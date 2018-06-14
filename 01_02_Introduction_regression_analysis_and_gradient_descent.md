@@ -189,6 +189,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
   - এখানে দেখা যাচ্ছে একটি ইনিশিয়ালাইজেশন পয়েন্ট (initialization point) থেকে একটি লোকাল মিনিমাম (local minimum) পাওয়া যাচ্ছে 
   - আরেকটি পয়েন্ট থেকে আরেকটি লোকাল মিনিমাম (local minimum) পাওয়া যাচ্ছে 
+
 **আরো যথাযথ সংজ্ঞা(formal definition)**
 - কনভারজেন্স (convergence) না হওয়া পর্যন্ত  
 
