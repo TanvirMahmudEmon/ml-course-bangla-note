@@ -202,7 +202,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
     - এসাইনমেন্টকে নির্দেশ করছে (Denotes assignment)
     - নোট: a = b মানে ট্রুথ আসারশন (truth assertion)
   - α (alpha)
-    - এটি একটি নাম্বার যাকে  বলে লার্নিং রেট (learning rate)
+    - এটি একটি নাম্বার যাকে  বলে **লার্নিং রেট (learning rate)**
 
 
 http://latex.codecogs.com/eqneditor/editor.php
