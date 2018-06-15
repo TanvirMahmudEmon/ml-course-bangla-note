@@ -217,5 +217,14 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - এটি আমরা কিভাবে করছি ?
     - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর ডান পাশের মান হিসাব করতে হবে 
       - কাজেই আমাদের একটি টেম্প ভ্যালু (temp value) লাগবে, সাময়িকভাবে মান রাখার জন্য 
+    - তারপর ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) কে একই সাথে আপডেট করতে হবে 
+    - নিচে এ নিয়ে চিত্র দেখানো হয়েছে 
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[19].png)
+
+- যদি আপডেটের কাজটি একই সাথে না করেন তবে গ্রেডিয়েন্ট ডিসেন্ট হবে না, এবং অদ্ভুত আচরণ করবে 
+  - তবে মনে হতে পারে যে ঠিকভাবেই কাজ করছে - তাই এটি মনে রাখা জরুরী 
+**এলগোরিদম বুঝে নেই**
+
 
 http://latex.codecogs.com/eqneditor/editor.php
