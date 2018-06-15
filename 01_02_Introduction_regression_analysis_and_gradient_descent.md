@@ -278,6 +278,6 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[22].png)
 
 - এটিকে পরীক্ষা করতে হলে মাল্টিভেরিয়েট ক্যালকুলাস (multivariate calculus) জানতে হবে 
-  
+  - যাতে গ্রেডিয়েন্ট ডিসেন্ট এলগোরিদমে আবার মানগুলো ব্যবহার করা যায়   
 
 http://latex.codecogs.com/eqneditor/editor.php
