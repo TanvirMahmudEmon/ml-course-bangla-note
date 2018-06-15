@@ -206,7 +206,7 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
     - একটি স্টেপ কত বড় হবে সেটি নিয়ন্ত্রণ করে 
       - যদি α বড় হয় তবে গ্রেডিয়েন্ট ডিসেন্ট হবে এগ্রেসিভ (aggressive gradient descent)
       - যদি α ছোট হয় তবে ছোট স্টেপ নিবে 
-- ডেরিভেটিভ টার্ম 
+- ডেরিভেটিভ টার্ম (Derivative term) 
 
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[18].png)
 
@@ -224,7 +224,6 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 
 - যদি আপডেটের কাজটি একই সাথে না করেন তবে গ্রেডিয়েন্ট ডিসেন্ট হবে না, এবং অদ্ভুত আচরণ করবে 
   - তবে মনে হতে পারে যে ঠিকভাবেই কাজ করছে - তাই এটি মনে রাখা জরুরী 
-**এলগোরিদম বুঝে নেই**
 **এলগোরিদম বুঝে নেই**
 - গ্রেডিয়েন্ট ডিসেন্ট বুঝতে হলে আমরা একটি সহজ সরল ফাংশনে ফিরে যাব যেখানে আমরা একটি প্যারামিটারকে মিনিমাইজ করব 
 যেন এলগোরিদমটিকে আরো ব্যাখ্যা করা যায় 
