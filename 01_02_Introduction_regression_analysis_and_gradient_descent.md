@@ -241,6 +241,21 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[20].png)
 
   - ডেরিভেটিভ থেকে 
-
+    - বিন্দুটিতে tangent বা স্পর্শক নেই এবং লাইনের slope বা ঢালটি দেখি 
+    - আর তাই মিনিমামের (down) দিকে যেতে থাকলে নেগেটিভ ডেরিভেটিভ তৈরী হবে, আলফা (alpha) সবসময় পজেটিভ, তাই ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20j%28%5CTheta%20_%7B1%7D%29) আরো ছোট মানে আপডেট হবে 
+    - একইভাবে আমরা স্লোপকে (slope) উপরের দিকে নিচ্ছি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20j%28%5CTheta%20_%7B1%7D%29) কে বড় করছি 
+- আলফা টার্ম (α)
+  - কি হবে যদি আলফা খুবই ছোট বা খুব বেশি বড় হয় 
+  - খুবই ছোট 
+    - বাচ্চাদের মত ছোট ছোট স্টেপ দিবে (baby steps)
+    - সময় অনেক বেশি লাগবে 
+  - খুব বেশি বড়
+    - মিনিমাম থেকে বেশি দূরে চলে যেতে পারে (overshoot) এবং একই বিন্দুতে মিলিত হতে (converge) ব্যর্থ হবে 
+- যখন একটি লোকাল মিনিমামে পৌঁছবেন 
+  - tangent/derivative এর গ্রেডিয়েন্ট হবে 0
+  - তাই derivative term = 0
+  - alpha * 0 = 0
+  - তাই ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%20%5CTheta%20_%7B1%7D%20-%200)
+  - তাই ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর মান একই থাকবে 
 
 http://latex.codecogs.com/eqneditor/editor.php
