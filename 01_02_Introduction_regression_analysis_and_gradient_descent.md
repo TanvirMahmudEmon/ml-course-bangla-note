@@ -204,5 +204,18 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - α (alpha)
     - এটি একটি নাম্বার যাকে  বলে **লার্নিং রেট (learning rate)**
     - একটি স্টেপ কত বড় হবে সেটি নিয়ন্ত্রণ করে 
+      - যদি α বড় হয় তবে গ্রেডিয়েন্ট ডিসেন্ট হবে এগ্রেসিভ (aggressive gradient descent)
+      - যদি α ছোট হয় তবে ছোট স্টেপ নিবে 
+- ডেরিভেটিভ টার্ম 
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[18].png)
+
+  - এটি নিয়ে এখন কথা বলব না, এটিকে পরে ডিরাইভ (derive) করব 
+- গ্রেডিয়েন্ট ডিসেন্ট এলগোরিদম কিভাবে প্রয়োগ করা হবে তা নিয়ে একটি সুক্ষতা (subtly) রয়েছে 
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এটি করে দেখি 
+  - যখন j = ০ এবং j = 1 এর মানে আমরা একই সাথে (simultaneously) উভয়কে আপডেট করছি 
+  - এটি আমরা কিভাবে করছি ?
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর ডান পাশের মান হিসাব করতে হবে 
+      - কাজেই আমাদের একটি টেম্প ভ্যালু (temp value) লাগবে, সাময়িকভাবে মান রাখার জন্য 
 
 http://latex.codecogs.com/eqneditor/editor.php
