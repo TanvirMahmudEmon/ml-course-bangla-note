@@ -256,5 +256,28 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
   - alpha * 0 = 0
   - তাই ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D%20%3D%20%5CTheta%20_%7B1%7D%20-%200)
   - তাই ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর মান একই থাকবে 
+- গ্লোবাল মিনিমামের যত নিকটবর্তী হবে ডেরিভেটিভ টার্ম তত ছোট হতে থাকবে, তাই আপডেট ছোট হবে, আলফা নির্দিষ্ট থাকলেও 
+  - অর্থাৎ এলগোরিদম যখন চলছে যত মিনিমামের কাছে যাবে তত ছোট স্টেপ নিবে 
+  - তাই একটু পর পর আলফা কে পরিবর্তন করার দরকার নেই 
+
+### গ্রেডিয়েন্ট ডিসেন্টের সাথে লিনিয়ার রিগ্রেশন (Linear regression with gradient descent)
+- স্কয়ার্ড এরর কস্ট ফাংশন ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B0%7D%2C%5CTheta%20_%7B1%7D%29) কে মিনিমাইজ করতে গ্রেডিয়েন্ট ডিসেন্ট প্রয়োগ করতে হবে 
+- এখন আমাদের কাছে আছে একটি পার্শিয়াল ডেরিভেটিভ 
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[21].png)
+
+- এখানে শুধুমাত্র প্রথম এক্সপ্রেশনটিকে ব্যাখ্যা করছি 
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%20_%7B0%7D%2C%5CTheta%20_%7B1%7D%29%20%3D%201/2m....)
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%20%7D%28x%29%3D%5CTheta%20_%7B0%7D&plus;%5CTheta%20_%7B1%7D*x)
+- তাই প্রত্যেক প্যারামিটারের জন্য আমাদেরকে ডেরিভেটিভ নির্ধারণ করতে হবে 
+  - যখন j = ০
+  - যখন j = 1
+- ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) এবং ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) এর ক্ষেত্রে এই পার্শিয়াল ডেরিভেটিভ বের করি 
+  - j = ০ এবং j = 1 এই শর্তে যখন আমরা এই এক্সপ্রেশনকে ডিরাইভ করি তখন আমরা পাই 
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[22].png)
+
+- এটিকে পরীক্ষা করতে হলে মাল্টিভেরিয়েট ক্যালকুলাস (multivariate calculus) জানতে হবে 
+  
 
 http://latex.codecogs.com/eqneditor/editor.php
