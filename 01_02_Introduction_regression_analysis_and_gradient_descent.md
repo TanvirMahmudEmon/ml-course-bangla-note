@@ -317,5 +317,21 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
     - অপকারিতা 
       - আরো অধিক জটিল (complicated)
     - **লিনিয়ার রিগ্রেশনের সাথে একাধিক ফিচার (linear regression with multiple features)** অংশে নরমাল ইকুয়েশন নিয়ে আলোচনা করা হবে 
+    - ২. আমরা অধিক সংখ্যক ফিচার দিয়েও শিখতে পারি 
+  - অন্য আরো কিছু প্যারামিটার থাকতে পারে যা থেকে প্রাইস (price) জানা যায় 
+  - হাউসের ক্ষেত্রে 
+    - Size
+    - Age
+    - Number bedrooms
+    - Number floors
+  - x1, x2, x3, x4
+- একাধিক ফিচার থাকলে প্লট করাটা কঠিন হয়ে যায় 
+  - ত্রিমাত্রিক (3 dimensions) এর বেশি প্লট করা আসলে সম্ভব নয় 
+  - নোটেশন (notation) গুলোও আরো জটিল হয়ে যায় 
+      - এটি বুঝে নেয়ার সবচেয়ে উত্তম উপায় হচ্ছে লিনিয়ার এলজেব্রা (linear algebra)
+      -  নোটেশন ও অন্য কাজগুলো ম্যাট্রিক্স এবং ভেক্টর দিয়ে করা যায় 
+      - যেমন: ম্যাট্রিক্স 
+
+![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[24].png)
     
 http://latex.codecogs.com/eqneditor/editor.php
