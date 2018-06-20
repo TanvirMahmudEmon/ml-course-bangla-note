@@ -333,5 +333,20 @@ http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr.h
       - যেমন: ম্যাট্রিক্স 
 
 ![](http://www.holehouse.org/mlclass/01_02_Introduction_regression_analysis_and_gr_files/Image%20[24].png)
-    
+
+- এই ম্যাট্রিক্সে দেখতে পাচ্ছি 
+  - Size
+  - Number of bedrooms
+  - Number floors
+  - Age of home
+- সবকিছু একটি ভ্যারিয়েবলের মধ্যে আছে 
+  - নাম্বারের ব্লক, সব ডাটা একটি বড় ব্লকে গোছানো থাকে 
+- ভেক্টর 
+  - y হিসাবে দেখানো হয়েছে 
+  - প্রাইসগুলো দেখাচ্ছে 
+- আরো জটিল লিনিয়ার রিগ্রেশনের জন্য লিনিয়ার এলজেব্রা দরকার হবে 
+- হিসাব নিকাশে কার্যকর মডেল (computationally efficient models) তৈরী করার জন্য লিনিয়ার এলজেব্রা ভাল (পরে এই বিষয়টি আরো দেখা যাবে)
+  - বড় ডাটা সেট নিয়ে কাজ করতে সহায়তা করে 
+  - কোন প্রবলেমকে ভেক্টরাইজেশন (vectorization) করা হচ্ছে সাধারণ একটি অপ্টিমাইজেশন টেকনিক (common optimization technique)
+
 http://latex.codecogs.com/eqneditor/editor.php
