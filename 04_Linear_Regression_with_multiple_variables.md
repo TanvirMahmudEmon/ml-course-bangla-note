@@ -19,3 +19,11 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
     - এক্সাম্পল সংখ্যা (অর্থাৎ একটি টেবিলে যতগুলো সারি-row আছে)
   - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x%5E%7Bi%7D)
     - একটি এক্সাম্পলের জন্য ইনপুট ভেক্টর (অর্থাৎ চারটি প্যারামিটারের একটি ভেক্টর i তম ইনপুট এক্সাম্পলের জন্য)
+    - ট্রেনিং সেটের একটি ইনডেক্স হল i 
+    - তাই 
+      - x হল n ডাইমেনশনের (n-dimensional) একটি ফিচার ভেক্টর 
+      - যেমনঃ ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x%5E%7B3%7D) তৃতীয় হাউস, এবং এতে ঐ হাউস সম্পর্কিত চারটি ফিচার আছে 
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7Bj%7D%5E%7Bi%7D) 
+    - i টম ট্রেনিং এক্সাম্পলে ফিচার j এর মান 
+    - 
+      - যেমনঃ ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7Bj%7D%5E%7Bi%7D), তৃতীয় হাউসের বেডরুমের সংখ্যা (number of bedrooms)
