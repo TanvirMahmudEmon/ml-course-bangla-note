@@ -27,4 +27,4 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
     - i টম ট্রেনিং এক্সাম্পলে ফিচার j এর মান 
     - তাই 
       - যেমনঃ ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7Bj%7D%5E%7Bi%7D), তৃতীয় হাউসের বেডরুমের সংখ্যা (number of bedrooms)
-
+- এখন আমাদের কাছে একাধিক ফিচার আছে 
