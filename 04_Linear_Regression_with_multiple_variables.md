@@ -25,5 +25,6 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
       - যেমনঃ ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x%5E%7B3%7D) তৃতীয় হাউস, এবং এতে ঐ হাউস সম্পর্কিত চারটি ফিচার আছে 
   - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7Bj%7D%5E%7Bi%7D) 
     - i টম ট্রেনিং এক্সাম্পলে ফিচার j এর মান 
-    - 
+    - তাই 
       - যেমনঃ ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7Bj%7D%5E%7Bi%7D), তৃতীয় হাউসের বেডরুমের সংখ্যা (number of bedrooms)
+
