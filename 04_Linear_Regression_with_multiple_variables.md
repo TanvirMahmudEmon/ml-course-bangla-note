@@ -78,4 +78,13 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
 
 - গ্রেডিয়েন্ট ডিসেন্ট ![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[1].png)
 
+- আরো একবার এটি 
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D%20%3D%20%5CTheta%20_%7Bj%7D%20-) লার্নিং রেট (α) গুণন ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7BJ%7D%20%28...%29) এর সাপেক্ষে J(θ) এর পার্শিয়াল ডেরিভেটিভ 
+  - প্রত্যকেটি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) এর মান **যুগপৎ ভাবে আপডেট (simultaneous update)** করে আমরা এটি করব 
+- এই এলগোরিদমের বাস্তবায়ন করি 
+  - যখন n = 1
 
+![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[2].png)
+
+- উপরে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) ও ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) কে আপডেট করার ক্ষেত্রে সামান্য পার্থক্য দেখা যাচ্ছে 
+  - আসলে দুটি একই, ব্যতিক্রম হচ্ছে শেষেদিকে পূর্বে অনির্ণীত (previously undefined) একটি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7B0%7D%5E%7B%28i%29%7D) আছে 1 হিসাবে , তাই দেখানো হয়নি 
