@@ -88,3 +88,12 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
 
 - উপরে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) ও ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) কে আপডেট করার ক্ষেত্রে সামান্য পার্থক্য দেখা যাচ্ছে 
   - আসলে দুটি একই, ব্যতিক্রম হচ্ছে শেষেদিকে পূর্বে অনির্ণীত (previously undefined) একটি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7B0%7D%5E%7B%28i%29%7D) আছে 1 হিসাবে , তাই দেখানো হয়নি 
+- মাল্টিভেরিইয়েট গ্রেডিয়েন্ট ডিসেন্টের জন্য এখন আমাদের কাছে প্রায় হুবহু অনুরূপ রুল (rule) বা নিয়ম আছে   
+
+![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[3].png)
+
+- এখানে কি কাজ হচ্ছে ?
+  - প্রত্যেক j (0 থেকে n পর্যন্ত) এর জন্য যুগপৎ আপডেট (যেমনঃ যখন n = 1) হিসাবে আমরা এটি করছি 
+  - তাই আমরা ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) কে পুনরায় স্থাপন করছি 
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) বিয়োগ লার্নিং রেট (α) গুণন ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) এর সাপেক্ষে θ ভেক্টর এর পার্শিয়াল ডেরিভেটিভ
+    - ক্যালকুলাস ছাড়া বললে এর মানে আমরা করছি 
