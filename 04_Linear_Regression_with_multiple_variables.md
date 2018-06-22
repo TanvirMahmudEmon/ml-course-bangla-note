@@ -28,3 +28,16 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
     - তাই 
       - যেমনঃ ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7Bj%7D%5E%7Bi%7D), তৃতীয় হাউসের বেডরুমের সংখ্যা (number of bedrooms)
 - এখন আমাদের কাছে একাধিক ফিচার আছে 
+  - আমাদের হাইপোথিসিসটি দেখতে কেমন হবে ?
+  - আগে আমাদের হাইপোথিসিসটি ছিল এমন 
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29%20%3D%20%5CTheta%20_%7B0%7D&plus;%5CTheta%20_%7B1%7Dx)
+      - এখানে দুটি প্যারামিটার আছে (theta 1 এবং theta 2) যা কিনা কস্ট ফাংশন (cost function) দ্বারা নির্ণয় করা হয় 
+      - একটি ভ্যারিয়েবল x 
+  - এখন আমাদের কাছে একাধিক ফিচার আছে 
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29%20%3D%20%5CTheta%20_%7B0%7D&plus;%5CTheta%20_%7B1%7Dx_%7B1%7D&plus;%5CTheta%20_%7B2%7Dx_%7B2%7D&plus;%5CTheta%20_%7B3%7Dx_%7B3%7D&plus;%5CTheta%20_%7B4%7Dx_%7B4%7D)
+  - যেমনঃ 
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h_%7B%5CTheta%7D%28x%29%20%3D%2080&plus;0.1x_%7B1%7D&plus;0.01x_%7B2%7D&plus;3x_%7B3%7D-2x_%7B4%7D) 
+      - হাইপোথিসিসের একটি উদহারণ যার মাধ্যমে হাউসের প্রাইস প্রেডিক্ট করার চেষ্টা করা হচ্ছে 
+      - এখনো প্যারামিটারগুলো কস্ট ফাংশন দিয়েই নির্ণয় করা হবে 
+  - নোটেশনের সুবিধার জন্য ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7B0%7D%3D%201)
+    - প্রত্যকেটি এক্সাম্পল i এর জন্য একটি করে অতিরিক্ত o তম ফিচার আছে 
