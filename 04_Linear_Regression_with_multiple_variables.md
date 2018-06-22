@@ -55,7 +55,7 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
       - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20%5E%7BT%7D) একটি [1 x n+1] ম্যাট্রিক্স 
       - অন্যভাবে বললে, যেহেতু θ একটি কলাম ভেক্টর, ট্রান্সপজিশন (transposition) অপারেশন এটিকে রো ভেক্টরে রূপান্তর করবে 
       - তাই আগে ছিল 
-        - θ ছিল মারটিক্স [n + 1 x 1]
+        - θ ছিল ম্যাট্রিক্স [n + 1 x 1]
       - এখন 
         - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20%5E%7BT%7D) হল ম্যাট্রিক্স [1 x n+1] 
       - এর মানে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20%5E%7BT%7D) এবং X এর ভিতরের ডিমেনশনে মিল আছে, সুতরাং তাদেরকে একসাথে গুন করা যেতে পারে এভাবে   
