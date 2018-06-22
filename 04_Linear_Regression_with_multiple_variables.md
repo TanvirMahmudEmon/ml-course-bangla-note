@@ -67,7 +67,7 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
   ### একাধিক ভ্যারিয়েবলের জন্য গ্রেডিয়েন্ট ডিসেন্ট (Gradient descent for multiple variables)
 - গ্রেডিয়েন্ট ডিসেন্ট দিয়ে হাইপোথিসিসের জন্য প্যারামিটারগুলো ফিট (fit) করা 
   - প্যারামিটারগুলো হল ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) থেকে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bn%7D)
-  - এই প্যারামিটারগুলোকে n সংখ্যক আলাদা আলাদা মান হিসাবে চিন্তা না করে একটি সিঙ্গেল ভেক্টর হিসাবে (θ) চিন্তা করুন 
+  - এই প্যারামিটারগুলোকে n সংখ্যক আলাদা আলাদা মান হিসাবে চিন্তা না করে একটি সিঙ্গেল ভেক্টর (θ) হিসাবে চিন্তা করুন 
     - যেখানে θ হল n+1 ডিমেনশনাল (dimensional)
 - আমাদের কস্ট ফাংশন হল 
 
