@@ -97,3 +97,26 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
   - তাই আমরা ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) কে পুনরায় স্থাপন করছি 
     - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) বিয়োগ লার্নিং রেট (α) গুণন ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) এর সাপেক্ষে θ ভেক্টর এর পার্শিয়াল ডেরিভেটিভ
     - ক্যালকুলাস ছাড়া বললে এর মানে আমরা করছি 
+      - লার্নিং রেট 
+      - গুণন 1/m (গাণিতিক হিসাব নিকাশকে সহজতর করে)
+      - গুণন যোগফল 
+        - ভ্যারিয়েবল ভেক্টর গ্রহণকারী হাইপোথিসিস, বিয়োগ মূল মান, গুণন ভ্যারিয়েবল ভেক্টরের j তম মান প্রত্যেক এক্সাম্পলের জন্য 
+    - এটি মনে রাখা জরুরী  যে 
+![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[4].png)
+- এই এলগোরিদমগুলো অনেকটাই একইরকম 
+
+### গ্রেডিয়েন্ট ডিসেন্টের ব্যবহার: ১ ফিচার স্কেলিং (Gradient Decent in practice: 1 Feature Scaling)
+- এতক্ষন থিওরি দেখলাম, এখন আমরা কিছু ব্যবহারিক প্রয়োগ শিখব 
+- ফিচার স্কেলিং 
+  - যদি একাধিক ফিচার নিয়ে কোন সমস্যা হয় 
+  - এটি নিশ্চিত করা উচিত যে ওই ফিচারগুলো একই স্কেলে আছে  
+    - অর্থাৎ গ্রেডিয়েন্ট ডিসেন্ট আরো দ্রুত একই বিন্দুতে এসে মিলিত হবে (অর্থাৎ converge হবে)
+  - যেমনঃ 
+    - x1 = size (0 - 2000 feet)
+    - x2 = number of bedrooms (1-5)
+    - অর্থাৎ আমরা যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B1%7D) বনাম ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B2%7D) কে প্লট করি এতে যে কন্ট্যুর (contour) তৈরী হয় বিশাল রেঞ্জের পার্থক্যের কারণে এটি খুব লম্বা ও চিকন আকৃতির হয়    
+
+![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[5].png)
+
+- গ্রেডিয়েন্ট ডিসেন্টে ইনপুট 
+  - কাজেই এই ইনপুটটিকে রিস্কেল (rescale) করা দরকার যাতে এটি আরো কার্যকর হয় 
