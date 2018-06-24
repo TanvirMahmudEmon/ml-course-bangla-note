@@ -102,7 +102,9 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
       - গুণন যোগফল 
         - ভ্যারিয়েবল ভেক্টর গ্রহণকারী হাইপোথিসিস, বিয়োগ মূল মান, গুণন ভ্যারিয়েবল ভেক্টরের j তম মান প্রত্যেক এক্সাম্পলের জন্য 
     - এটি মনে রাখা জরুরী  যে 
+    
 ![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[4].png)
+
 - এই এলগোরিদমগুলো অনেকটাই একইরকম 
 
 ### গ্রেডিয়েন্ট ডিসেন্টের ব্যবহার: ১ ফিচার স্কেলিং (Gradient Decent in practice: 1 Feature Scaling)
@@ -119,4 +121,4 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
 ![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[5].png)
 
 - গ্রেডিয়েন্ট ডিসেন্টে ইনপুট 
-  - কাজেই এই ইনপুটটিকে রিস্কেল (rescale) করা দরকার যাতে এটি আরো কার্যকর হয় 
+  - কাজেই এই ইনপুটটিকে রিস্কেল (rescale) করা দরকার যাতে এটি আরো কার্যকর হয় ***
