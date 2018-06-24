@@ -105,7 +105,7 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
     
 ![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[4].png)
 
-- এই এলগোরিদমগুলো অনেকটাই একইরকম 
+- এই এলগোরিদমগুলো অনেকটা একইরকম 
 
 ### গ্রেডিয়েন্ট ডিসেন্টের ব্যবহার: ১ ফিচার স্কেলিং (Gradient Decent in practice: 1 Feature Scaling)
 - এতক্ষন থিওরি দেখলাম, এখন আমরা কিছু ব্যবহারিক প্রয়োগ শিখব 
