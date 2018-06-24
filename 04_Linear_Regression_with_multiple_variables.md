@@ -139,3 +139,10 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
 - max এর পরিবর্তে স্ট্যান্ডার্ড ডেভিয়েশনও (standard deviation) ব্যবহার করা যায় 
 
 ### লার্নিং রেট α (Learning Rate α)
+- লার্নিং রেট (α) তে ফোকাস করি 
+- বিষয়গুলো হল 
+  - আপডেট রুল বা নিয়ম (Update rule)
+  - ডিবাগিং (Debugging)
+  - কিভাবে α বাছাই করব (How to chose α)
+
+***গ্রেডিয়েন্ট ডিসেন্ট কাজ করছে এটি নিশ্চিত করি***
