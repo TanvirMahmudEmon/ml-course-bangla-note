@@ -93,10 +93,10 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
 ![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[3].png)
 
 - এখানে কি কাজ হচ্ছে ?
-  - প্রত্যেক j (0 থেকে n পর্যন্ত) এর জন্য যুগপৎ আপডেট (যেমনঃ যখন n = 1) হিসাবে আমরা এটি করছি 
+  - প্রতিটি j (0 থেকে n পর্যন্ত) এর জন্য যুগপৎ আপডেট (যেমনঃ যখন n = 1) হিসাবে আমরা এটি করছি 
   - তাই আমরা ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) কে পুনরায় স্থাপন করছি 
     - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) বিয়োগ লার্নিং রেট (α) গুণন ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bj%7D) এর সাপেক্ষে θ ভেক্টর এর পার্শিয়াল ডেরিভেটিভ
-    - ক্যালকুলাস ছাড়া বললে এর মানে আমরা করছি 
+    - ক্যালকুলাস ছাড়া বললে এর মানে দাঁড়ায় 
       - লার্নিং রেট 
       - গুণন 1/m (গাণিতিক হিসাব নিকাশকে সহজতর করে)
       - গুণন যোগফল 
