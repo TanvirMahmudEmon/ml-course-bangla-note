@@ -145,4 +145,4 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
   - ডিবাগিং (Debugging)
   - কিভাবে α বাছাই করব (How to chose α)
 
-***গ্রেডিয়েন্ট ডিসেন্ট কাজ করছে এটি নিশ্চিত করি***
+**গ্রেডিয়েন্ট ডিসেন্ট কাজ করছে এটি নিশ্চিত করি**
