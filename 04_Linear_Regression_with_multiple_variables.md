@@ -64,7 +64,7 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
         - অন্যভাবে বললে, আমাদের প্যারামিটার ভেক্টরের ট্রান্সপোজ * একটি ইনপুট এক্সাম্পল X আমাদেরকে একটি প্রেডিক্টেড হাইপোথিসিস দিচ্ছে যেটি [1 x 1] ডিমেনশনের (অর্থাৎ একটি সিঙ্গেল মান)
     - এই ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7B0%7D%3D1) থেকে এটি আমরা এভাবে লিখতে পারি 
   - এটি হল মাল্টিভেরিইয়েট লিনিয়ার রিগ্রেশনের (multivariate linear regression) উদাহরণ 
-  ### একাধিক ভ্যারিয়েবলের জন্য গ্রেডিয়েন্ট ডিসেন্ট (Gradient descent for multiple variables)
+### একাধিক ভ্যারিয়েবলের জন্য গ্রেডিয়েন্ট ডিসেন্ট (Gradient descent for multiple variables)
 - গ্রেডিয়েন্ট ডিসেন্ট দিয়ে হাইপোথিসিসের জন্য প্যারামিটারগুলো ফিট (fit) করা 
   - প্যারামিটারগুলো হল ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D) থেকে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7Bn%7D)
   - এই প্যারামিটারগুলোকে n সংখ্যক আলাদা আলাদা মান হিসাবে চিন্তা না করে একটি সিঙ্গেল ভেক্টর (θ) হিসাবে চিন্তা করুন 
