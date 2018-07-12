@@ -147,5 +147,5 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
 
 **গ্রেডিয়েন্ট ডিসেন্ট কাজ করছে এটি নিশ্চিত করি**
 - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20minJ%28%5CTheta%29) বনাম ইটারেশন সংখ্যাকে (no of iterations) প্লট করি 
-  - অর্থাৎ গ্রেডিয়েন্ট ডিসেন্টের সাথে সাথে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%29) কে প্লট করা 
+  - অর্থাৎ গ্রেডিয়েন্ট ডিসেন্টের সাথে সাথে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%29) কে প্লট করি 
 - যদি গ্রেডিয়েন্ট ডিসেন্ট কাজ করে তাহলে প্রতিটি ইটারেশনের পরে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%29) এর মান কমবে 
