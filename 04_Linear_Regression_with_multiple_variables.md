@@ -163,3 +163,24 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
   - কতগুলো ইটারেশন লাগবে আগেই বলাটা খুব কঠিন 
   - এমন একটি প্লটের ভিত্তিতে প্রায়ই অনুমান করা যায় প্রথম ১০০ টি বা আরো কিছু ইটারেশনের পরে 
 - অটোমেটিক কনভার্জেন্স টেস্ট 
+  - যাচাই করে দেখি যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%29) ছোট সীমা (threshold) বা আরো কম  দিয়ে পরিবর্তন হয়
+    - এই সীমাটি (threshold) বাছাই করা কঠিন 
+    - তাই একটি সোজা লাইন যাচাই করা প্রায়ই সহজতর 
+      - কেন ? - কারণ আমরা পুরো এলগোরিদমের ক্ষেত্রে ঋজুতা (straightness) দেখছি 
+      - আপনি কি একটি স্বয়ংক্রিয় চেকার তৈরী করতে পারবেন যেটি সিস্টেমের অগ্রগতির সাথে সাথে একটি সীমা (threshold) হিসাব করবে ?
+  - এটি কাজ করছে কিনা যাচাই করি 
+    - যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%29) বনাম ইটারেশনকে প্লট করি এবং দেখতে পাই যে মান বাড়ছে - এর মানে সম্ভবত আমার আরো ছোট একটি α লাগবে 
+      - কারণ আমি মিনিমাইজ করছি একটি ফাংশন যেটি দেখতে এমন 
+
+![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[8].png)
+
+  - কিন্তু আমি লক্ষ্য বস্তুর বাইরে দিয়ে চলে যাচ্ছি (overshoot), তাই লার্নিং রেটকে কমাই যাতে আসলেই মিনিমামে পৌঁছতে পারি (সবুজ লাইন)
+
+![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[9].png)
+
+  - কাজেই, একটি ক্ষুদ্রতর α ব্যবহার করতে হবে 
+- আরেকটি সমস্যা হতে পারে যদি ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%29) দেখতে সিরিজ অভ  ওয়েভ (series of waves) এর মত হয় 
+  - এখানেও আবার ক্ষুদ্রতর α ব্যবহার করতে হবে 
+- যাইহোক 
+  - যদি α যথেষ্ট ছোট হয়, প্রতি ইটারেশনে ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20J%28%5CTheta%29) কমবে 
+  - কিন্তু, যদি 
