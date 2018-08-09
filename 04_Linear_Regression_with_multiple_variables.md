@@ -203,3 +203,9 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
   - শুধু দুটি ফিচার ব্যবহার করতে হবে না 
     - **নতুন ফিচার তৈরী করে নিতে পারেন**
   - হয়তো সিদ্ধান্ত নিলাম যে, একটি গুরুত্বপূর্ণ ফিচার হচ্ছে জমির আয়তন (land area)
+    - তাই নতুন একটি ফিচার তৈরী করি = ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20frontage%20*%20depth%20%28x_%7B3%7D%29)
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20h%28x%29%20%3D%20%5CTheta%20_%7B0%7D&plus;%5CTheta%20_%7B1%7Dx_%7B3%7D)
+      - এরিয়া আরো ভাল নির্দেশক 
+  - নতুন ফিচার তৈরী করে প্রায়ই আপনি আরো ভাল মডেল পেতে পারেন 
+- পলিনমিয়াল রিগ্রেশন 
+  - হয়তো ডাটা আরো ভাল ফিট করবে 
