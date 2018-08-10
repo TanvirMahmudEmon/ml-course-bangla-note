@@ -226,4 +226,4 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
 - গতানুগতিক পলিনমিয়ালের পরিবর্তে আপনি ভ্যারিয়েবলও করতে পারেন  ^(1/something) - অর্থাৎঃ স্কয়ার রুট, কিউব রুট ইত্যাদি 
 - অনেকগুলো ফিচার - পরে দেখে নিবেন বেস্ট ফিচার বেছে নেয়ার জন্য এলগোরিদম তৈরী করা  
 
-### নরমাল একুয়েশন (Normal equation)
+### নরমাল ইকুয়েশন (Normal equation)
