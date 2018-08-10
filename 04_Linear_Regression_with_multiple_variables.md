@@ -209,3 +209,11 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
   - নতুন ফিচার তৈরী করে প্রায়ই আপনি আরো ভাল মডেল পেতে পারেন 
 - পলিনমিয়াল রিগ্রেশন 
   - হয়তো ডাটা আরো ভাল ফিট করবে 
+  - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20%5CTheta%20_%7B0%7D&plus;%5CTheta%20_%7B1%7Dx&plus;%5CTheta%20_%7B2%7Dx%5E%7B2%7D) উদাহরণঃ এখানে আমাদের একটি কোয়াডরেটিক (quadratic) ফাংশন আছে 
+  - হাউসিং ডাটার জন্য একটি কোয়াডরেটিক (quadratic) ফাংশন ব্যবহার করা যেতে পারে 
+    - কিন্তু ডাটা হয়তো ভালভাবে ফিট হবে না - বক্র অংশটি (inflection point) বুঝাচ্ছে যে, যখন সাইজ আসলেই বড় হয়ে যায় তখন হাউসের প্রাইস কমতে থাকে 
+    - তাই অবশ্যই এর পরিবর্তে একটি কিউবিক (cubic) ফাংশন ব্যবহার করতে হবে 
+
+![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[10].png)
+
+- কিভাবে মডেলটি আমরা এই ডাটায় ফিট করব 
