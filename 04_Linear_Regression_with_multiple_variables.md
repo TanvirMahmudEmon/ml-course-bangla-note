@@ -217,3 +217,13 @@ http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.ht
 ![](http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables_files/Image%20[10].png)
 
 - কিভাবে মডেলটি আমরা এই ডাটায় ফিট করব 
+  - আমাদের আগের লিনিয়ার হাইপোথিসিস ও কস্ট ফাংশনগুলোকে এসব পলিনমিয়াল ডেস্ক্রিপশনে ম্যাপ করার জন্য সহজ উপায় হল সেট ***
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7B1%7D%3Dx)
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7B2%7D%3Dx%5E%7B2%7D)
+    - ![](http://latex.codecogs.com/gif.latex?%5Cfn_cm%20x_%7B3%7D%3Dx%5E%7B3%7D)
+  - ফিচারগুলোকে এভাবে সিলেক্ট করে এবং লিনিয়ার রিগ্রেশন এলগোরিদম প্রয়োগ করে পলিনমিয়াল রিগ্রেশন করতে পারবেন 
+  - মনে রাখবেন, এখানে ফিচার স্কেলিং করাটা আরো অধিক গুরুত্বপূর্ণ
+- গতানুগতিক পলিনমিয়ালের পরিবর্তে আপনি ভ্যারিয়েবলও করতে পারেন  ^(1/something) - অর্থাৎঃ স্কয়ার রুট, কিউব রুট ইত্যাদি 
+- অনেকগুলো ফিচার - পরে দেখে নিবেন বেস্ট ফিচার বেছে নেয়ার জন্য এলগোরিদম তৈরী করা  
+
+### নরমাল একুয়েশন (Normal equation)
